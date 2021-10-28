@@ -75,9 +75,10 @@
     scroll-behavior: smooth;
   }
 }
-
+/* MY STYLES */
 .right-align{
   text-align:right;
+  padding-top:10px;
 }
 .mid-size{
   text-align:center;
@@ -85,6 +86,21 @@
   display:block;
   max-width:500px !important;
 }
+@media (min-width: 700px) {
+  .mobile-only .col-6 {
+    display:none !important;
+  }
+}
+@media (max-width: 700px) {
+  .desktop-only {
+    display:none !important;
+  }
+  .mobile-only{
+    padding:10px !important;
+    }
+}
+
+/* END MY STYLES */
 
 
 body {
