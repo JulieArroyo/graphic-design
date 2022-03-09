@@ -101,7 +101,10 @@
 }
 
 blockquote{
-  background: #fff !important;
+  background: #ffffff !important;
+}
+iframe{
+  background: #ffffff !important;
 }
 
 
