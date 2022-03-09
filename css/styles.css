@@ -101,10 +101,10 @@
 }
 
 blockquote{
-  background: #ffffff !important;
+  background-color: #ffffff !important;
 }
 iframe{
-  background: #ffffff !important;
+  background-color: #ffffff !important;
 }
 
 
@@ -509,6 +509,7 @@ output {
 
 iframe {
   border: 0;
+  background-color: fff !important;
 }
 
 summary {
